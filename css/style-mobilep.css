@@ -1,91 +1,163 @@
 /*
-	Directive by HTML5 UP
+	Telephasic by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Section/Article */
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
 
-	header.major {
-		padding-left: 1em;
-		padding-right: 1em;
+	body,input,textarea,select
+	{
+		font-size: 12pt;
+		letter-spacing: 0;
 	}
 
-	footer.major {
-		padding-left: 1em;
-		padding-right: 1em;
+	.feature
+	{
+		text-align: left;
 	}
 
-/* List */
-
-	ul.icons li {
-		padding: 0.2em;
-	}
-
-	ul.actions li {
-		display: block;
-		padding: 15px 0 0 0;
-	}
-
-		ul.actions li:first-child {
-			padding: 0;
+	/* Sections/Article */
+	
+		section,
+		article,
+		.row > section,
+		.row > article
+		{
+			margin-bottom: 2em;
 		}
 
-/* Button */
+		header
+		{
+		}
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button {
-		display: block;
+			header.major
+			{
+				text-align: left;
+			}
+
+	/* Image */
+
+		.image
+		{
+			display: block;
+		}
+		
+			.image.full,
+			.image.left,
+			.image-centered
+			{
+				float: none;
+				display: block;
+				width: 100%;
+				margin: 0 0 1.5em 0;
+			}
+
+	/* List */
+
+		ul.actions
+		{
+		}
+		
+			ul.actions li
+			{
+				display: block;
+				margin: 1em 0 0 0;
+			}
+
+			ul.actions li:first-child
+			{
+				margin-top: 0;
+			}
+
+			ul.actions.major
+			{
+				text-align: left !important;
+			}
+			
+	/* Form */
+
+		form
+		{
+		}
+		
+			form textarea
+			{
+				min-height: 10em;
+			}
+
+	/* Button */
+		
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"],
+		.button
+		{
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 0;
 		width: 100%;
 	}
 
-/* Box */
+/*********************************************************************************/
+/* Hero                                                                          */
+/*********************************************************************************/
 
-	.box {
-		padding: 2em 1em;
+	#hero
+	{
+		padding: 2.5em 0 0 0;
+	}
+		
+/*********************************************************************************/
+/* Promo                                                                         */
+/*********************************************************************************/
+
+	#promo
+	{
+		padding: 20px;
 	}
 
-/* Feature */
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
 
-	.feature {
-		margin-bottom: 1em;
+	#content
+	{
+		margin-bottom: 2em;
 	}
 
-		.feature .content {
-			padding: 2em 1em !important;
-		}
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
 
-/* Main */
-
-	#main {
-		padding-left: 1em;
-		padding-right: 1em;
+	#sidebar
+	{
+		margin-bottom: 2em;
 	}
+		
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
 
-/* Footer */
-
-	#footer {
-		margin-top: -100px;
-		padding-left: 1em;
-		padding-right: 1em;
+	#footer
+	{
 	}
-
-		#footer .copyright li {
-			border: 0;
-			display: block;
-			margin: 0;
-			padding: 0.75em 0 0 0;
-		}
-
-/* Header */
-
-	#header {
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-
-		#header br {
-			display: none;
+		
+		#footer header.major
+		{
+			margin-bottom: 1em;
 		}
